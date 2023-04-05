@@ -1,0 +1,154 @@
+
+.headtop{
+    display: flex;
+    flex-direction: row;
+    height: 150%;
+}
+
+
+.left{
+    flex: 25%;
+    background-color: rgb(54, 59, 61);
+}
+
+
+.circleBase {
+    border-radius: 50%;
+  }
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    background: #4bc475;
+    border: 1px solid #000;
+    position: relative;
+    max-width: 100px;
+    margin: 50px auto;
+    text-align: center; 
+  }
+
+
+.info{
+    padding: 2%;
+    /* text-align: center; */
+    color: white;
+    font-size: medium;
+}
+
+.certifications{
+    color: white;
+    padding: 1%;
+}
+
+/* .skills{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 1.2%;
+} */
+
+.skillarea h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 1.2%;
+}
+
+.progress-bar{
+    background: #959595;
+    width:400px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: orange;
+}
+
+/* .progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(54, 59, 61);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.java{
+    background: orange;
+    animation: java 10s linear forwards;
+}
+.machinelearning{
+    background: orange;
+    animation: python 10s linear forwards;
+}
+.python{
+    background: orange;
+    animation: machinelearning 10s linear forwards;
+}
+.mean{
+    background: orange;
+    animation: mean 10s linear forwards;
+}
+.sql{
+    background: orange;
+    animation: sql 10s linear forwards;
+}
+
+
+
+
+@keyframes java{
+    100%{
+        width: 86%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes machinelearning{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes mean{
+    100%{
+        width: 68%;
+    }
+}
+@keyframes sql{
+    100%{
+        width: 65%;
+    }
+}
+
+
+/* Right elements css area */
+
+.right{
+    flex: 75%;
+    /* text-align: center; */
+    background-color: white;
+    padding: 1.5%;
+}
+
+.nameinfo{
+text-align: center;
+}
+
+.education{
+    padding: 1.2%;
+}
